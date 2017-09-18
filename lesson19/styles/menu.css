@@ -1,0 +1,99 @@
+.clear {
+    clear: both;
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    justify-content: flex-start;
+    padding-top: 20px;
+    height: 90px;
+    align-items: center;
+}
+
+.menu .topmenu {
+    padding-top: 10px;
+    position: relative;
+}
+
+.menu .topmenu li {
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.menu .topmenu li:hover .hidden-menu {
+    display: block;
+    top: 60px;
+}
+
+.menu .topmenu a {
+    color: #4d4d4d;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu .topmenu a:hover {
+    color: #29aae3;
+}
+
+.menu .topmenu span a {
+    color: #29aae3;
+    padding-left: 100px;
+}
+
+.menu .hidden-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+}
+
+.first {
+    left: 30px;
+}
+
+.second {
+    left: 143px;
+}
+
+.third {
+    left: 222px;
+}
+
+.fourth {
+    left: 330px;
+}
+
+.fifth {
+    left: 398px;
+}
+
+.sixth {
+    left: 493px;
+}
+
+.menu .hidden-menu li {
+    background-color: #666;
+    float: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 220px;
+}
+
+.menu .hidden-menu li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.menu .hidden-menu a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu .hidden-menu a:hover {
+    color: #fff;
+}
