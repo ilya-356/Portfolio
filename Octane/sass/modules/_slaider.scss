@@ -1,0 +1,91 @@
+body {
+    font-family: "Arimo";
+}
+
+.bmw {
+    position: relative;
+}
+
+.bmw img {
+    width: 100%;
+    height: auto;
+}
+
+.container-position {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+}
+
+@media screen and (max-width: 455px) {
+    .container-position {
+        display: none;
+    }
+}
+
+.container-width {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.new {
+    background: #24cdc1;
+    color: $white-color;
+    font-size: 14px;
+    font-family: "Cambay";
+    font-style: italic;
+    font-weight: 700;
+    padding: 10px 15px 3px 15px;
+    position: absolute;
+    top: -17px;
+    left: 35px;
+    width: 60px;
+    z-index: 5;
+}
+
+.caption {
+    background-color: rgba(0,0,0, 0.8);
+    width: 450px;
+    height: 100px;
+    padding: 12px 20px 20px 35px;
+    position: relative;
+}
+
+.model {
+    width: 80%;
+}
+
+.model h1 {
+    color: $white-color;
+    font-family: "Cambay", sans-serif;
+    font-size: 28px;
+    float: left;
+}
+
+.model:after {
+    background: rgba(255,255,255, 0.2);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 32%;
+    height: 100px;
+    width: 1px;
+}
+
+.price {
+    float: right;
+    width: 20%;
+}
+
+.price p {
+    color: $white-color;
+    font-size: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.price span {
+    color: $blue-color;
+    font-size: 18px;
+}

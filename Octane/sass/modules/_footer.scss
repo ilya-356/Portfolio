@@ -1,0 +1,195 @@
+.clear {
+    clear: both;
+}
+
+.bottom-section {
+    background: url(../../assets/images/footer-background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.bottom-section h1 {
+    color: $light-blue-color;
+    font-size: 57px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bottom-section span {
+    color: #fff;
+}
+
+.bottom-section button {
+    background-color: $dark-blue;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 25px 40px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.bottom-section button:hover {
+    background-color: $navy-blue
+}
+
+.bottom-section button:after {
+    content: '\f178';
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.fonts-bottom {
+    background-color: $black-color;
+}
+
+.lower-menu {
+    margin-bottom: 55px;
+}
+
+.lower-menu h3 {
+    color: $light-blue-color;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.section-menu {
+    float: left;
+    margin-top: 30px;
+    width: 380px;
+}
+
+@media screen and (max-width: 450px) {
+    .section-menu {
+        width: 200px;
+    }
+}
+
+.section-menu ul {
+    padding: 0;
+}
+
+.section-menu li {
+    list-style: none;
+}
+
+.section-menu a {
+    color: $white-color;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.section-menu a:hover {
+    color: $light-blue-color;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacts span {
+    color: $light-blue-color;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.feedback {
+    border-top: 1px rgba(255,255, 255,0.14) solid;
+    border-bottom: 1px rgba(255,255, 255,0.14) solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.follow {
+    border-right: 1px rgba(255,255, 255,0.14) solid;
+    float: left;
+    padding-top: 20px;
+    height: 60px;
+    width: 47%;
+}
+
+.follow a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.follow a:hover {
+    color: $light-blue-color;
+}
+
+.newsletter {
+    float: left;
+    padding-top: 10px;
+    height: 60px;
+    width: 47%;
+}
+
+@media only screen and (max-width: 602px) {
+    .follow, .newsletter {
+        width: 100%;
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 954px) {
+    .newsletter span {
+        display: block;
+        width: 100%;
+    }
+}
+
+.newsletter input {
+    background-color: #35373F;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 16px 15px;
+}
+
+.newsletter input::placeholder {
+    color: #fff;
+}
+
+.newsletter button {
+    background-color: $dark-blue;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 19px 15px 16px 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    position: relative;
+    right: 6px;
+}
+
+@media only screen and (max-width: 602px) {
+    .newsletter input, .newsletter button {
+        font-size: 10px;
+    }
+}
+
+.copyright p {
+    color: #909191;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 40px;
+}
